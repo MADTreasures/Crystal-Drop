@@ -38,8 +38,8 @@ Regeln, Steuerung und Sound sind in beiden gleich. Ein Skin ist ein Ordner unter
 und Texturen (`KF.Skin`), `style.css` wird an das Standard-Stylesheet angehängt.
 
 Die Höhlenräume des realistischen Looks stammen aus der parallel entstandenen «Höhlenedition»
-(Branch `crystal-drop/png-komplettpaket`): acht Raumbilder und ein Titelbild in `assets/caves/`, dazu die
-Bewegungsmodule in `src/skins/real/cave.js`. `caves.json` ordnet Bild und Bildausschnitt den Leveln zu;
+(Branch `crystal-drop/png-komplettpaket` im Repo [`MADTreasures/Games`](https://github.com/MADTreasures/Games)):
+acht Raumbilder und ein Titelbild in `assets/caves/`, dazu die Bewegungsmodule in `src/skins/real/cave.js`. `caves.json` ordnet Bild und Bildausschnitt den Leveln zu;
 `build.mjs` bettet die Bilder ein, damit das Spiel eine einzige Datei bleibt (rund 5,5 MB).
 
 ## Steuerung
@@ -80,3 +80,8 @@ Der Titel steht in `src/game.js` (`TITLE_LINES`), ein neues Höhlen-Thema ist ei
 - Der Name «Tetris» ist eine geschützte Marke und wird deshalb weder im Spiel noch im Paketnamen verwendet.
 - Schrift «Fredoka»: © The Fredoka Project Authors, SIL Open Font License 1.1.
 - Schrift «Cinzel»: © The Cinzel Project Authors, SIL Open Font License 1.1.
+
+## Herkunft
+
+Das Spiel lag bis November 2026 im Ordner `crystal-drop` des Repos
+[`MADTreasures/Games`](https://github.com/MADTreasures/Games) und ist mit seinem ganzen Verlauf hierher umgezogen.
