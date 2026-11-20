@@ -42,6 +42,13 @@ Die Höhlenräume des realistischen Looks stammen aus der parallel entstandenen 
 acht Raumbilder und ein Titelbild in `assets/caves/`, dazu die Bewegungsmodule in `src/skins/real/cave.js`. `caves.json` ordnet Bild und Bildausschnitt den Leveln zu;
 `build.mjs` bettet die Bilder ein, damit das Spiel eine einzige Datei bleibt (rund 5,5 MB).
 
+## Universal-Fassung
+
+`CrystalDrop-Universal.html` ist eine fertige Einzeldatei des realistischen Looks (rund 6,2 MB) und eine
+Weiterentwicklung von `real.html`: überarbeitete Kristalle und Splitter, auf Canvas gezeichnete Anzeigen,
+Dialoge auch im Querformat. Sie wurde als fertige HTML-Datei übernommen. Ihre Quellen liegen noch nicht in
+`src/`, `build.mjs` erzeugt sie also nicht.
+
 ## Steuerung
 
 | Touch | Tastatur | Wirkung |
